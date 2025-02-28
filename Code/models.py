@@ -239,7 +239,7 @@ class LLM:
             weights = attention_matrix[-1]
             weights = weights / sum(weights)
 
-            return np.average(em, axis=0, weights=weights)
+            return torch.tensor(np.average(em, axis=0, weights=weights))
 
         else:
             return hidden_states.mean(dim=1) 
