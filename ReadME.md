@@ -1,3 +1,20 @@
+This folder contains multiple Python files and Jupyter notebooks:
+
+Each filename includes a number, where **1** represents data preparation, **2** represents evaluation, and **3** represents result visualization.
+
+### **Purpose**
+
+Download the sentence embedding evaluation dataset **C_MTEB** and the word embedding evaluation dataset **Data**, and evaluate word embeddings and sentence embeddings.
+
+### **Instructions**
+
+1. To download the word embedding evaluation data, run the script **1 Preparation.ipynb**.
+2. To evaluate word embeddings under **ReBA encoding** and **Echo encoding**, run the scripts **2 word_evaluation ReBA.ipynb** and **2 word_evaluation Echo.ipynb**, respectively.
+3. To download the sentence embedding evaluation data, run the script **python 1 Download_MTEB.py** in the terminal.
+4. To evaluate sentence embeddings, run **python 2 Evaluation_MTEB.py**. After evaluation, you can use **3 draw_picture.ipynb** to visualize the results.
+
+-----
+
 本文件夹下有多个python文件和Jupyter notebook：
 
 文件名下都带有数字，1表示数据准备，2表示评估，3表示结果展示
